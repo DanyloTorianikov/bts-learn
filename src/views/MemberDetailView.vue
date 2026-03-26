@@ -6,6 +6,7 @@ import { members } from '@/data/members'
 import AudioPlayer from '@/components/AudioPlayer.vue'
 import PhotoGallery from '@/components/PhotoGallery.vue'
 
+const base = import.meta.env.BASE_URL
 const route = useRoute()
 const router = useRouter()
 const { t, locale } = useI18n()
@@ -33,7 +34,7 @@ function formatDate(dateStr: string): string {
     <section class="hero-section">
       <div class="hero-photo">
         <img
-          :src="`/images/members/${member.id}/${member.photos[0]}`"
+          :src="`${base}images/members/${member.id}/${member.photos[0]}`"
           :alt="member.name.en"
         />
       </div>
@@ -67,12 +68,12 @@ function formatDate(dateStr: string): string {
           <div class="section-label">{{ t('members.audio') }}</div>
           <div class="audio-players">
             <AudioPlayer
-              :src="`/audio/${member.audio.song}`"
+              :src="`${base}audio/${member.audio.song}`"
               :title="t('members.songClip')"
               :subtitle="member.audio.songTitle"
             />
             <AudioPlayer
-              :src="`/audio/${member.audio.voice}`"
+              :src="`${base}audio/${member.audio.voice}`"
               :title="t('members.voiceClip')"
               :subtitle="member.audio.voiceSource"
             />
@@ -129,7 +130,7 @@ function formatDate(dateStr: string): string {
         <h3 class="section-title">{{ t('members.gallery') }}</h3>
         <PhotoGallery
           :photos="member.photos.slice(1)"
-          :base-path="`/images/members/${member.id}`"
+          :base-path="`${base}images/members/${member.id}`"
           :alt="member.name.en"
         />
       </div>

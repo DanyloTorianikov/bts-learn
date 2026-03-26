@@ -5,6 +5,7 @@ import { RouterLink } from 'vue-router'
 import { members } from '@/data/members'
 
 const { t } = useI18n()
+const base = import.meta.env.BASE_URL
 const visible = ref(false)
 
 onMounted(() => {
@@ -32,7 +33,7 @@ onMounted(() => {
         }"
       >
         <img
-          :src="`/images/members/${member.id}/${member.photos[0]}`"
+          :src="`${base}images/members/${member.id}/${member.photos[0]}`"
           :alt="member.name.en"
         />
       </div>
@@ -57,7 +58,7 @@ onMounted(() => {
           :title="member.name.en"
         >
           <img
-            :src="`/images/members/${member.id}/${member.photos[0]}`"
+            :src="`${base}images/members/${member.id}/${member.photos[0]}`"
             :alt="member.name.en"
           />
           <span class="avatar-name">{{ member.name.en }}</span>

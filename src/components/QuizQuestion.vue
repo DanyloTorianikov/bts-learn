@@ -7,6 +7,8 @@ const props = defineProps<{
   mode: QuizMode
 }>()
 
+const base = import.meta.env.BASE_URL
+
 const emit = defineEmits<{
   answer: [memberId: string]
 }>()
@@ -86,7 +88,7 @@ function optionClass(memberId: string): string {
     <div v-if="mode === 'photo'" class="question-content">
       <div class="question-photo">
         <img
-          :src="`/images/members/${question.correctMember.id}/${question.correctMember.photos[0]}`"
+          :src="`${base}images/members/${question.correctMember.id}/${question.correctMember.photos[0]}`"
           :alt="'?'"
         />
       </div>
@@ -116,7 +118,7 @@ function optionClass(memberId: string): string {
           @click="selectAnswer(option.id)"
         >
           <img
-            :src="`/images/members/${option.id}/${option.photos[0]}`"
+            :src="`${base}images/members/${option.id}/${option.photos[0]}`"
             :alt="'?'"
           />
         </button>
@@ -128,7 +130,7 @@ function optionClass(memberId: string): string {
       <div class="voice-player" :class="{ playing: isPlaying }">
         <audio
           ref="quizAudio"
-          :src="`/audio/${question.correctMember.audio.song}`"
+          :src="`${base}audio/${question.correctMember.audio.song}`"
           preload="metadata"
           @timeupdate="currentTime = quizAudio?.currentTime ?? 0"
           @loadedmetadata="duration = quizAudio?.duration ?? 0"

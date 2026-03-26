@@ -4,13 +4,15 @@ import type { Member } from '@/types/member'
 defineProps<{
   member: Member
 }>()
+
+const base = import.meta.env.BASE_URL
 </script>
 
 <template>
   <RouterLink :to="`/members/${member.id}`" class="member-card">
     <div class="card-image">
       <img
-        :src="`/images/members/${member.id}/${member.photos[0]}`"
+        :src="`${base}images/members/${member.id}/${member.photos[0]}`"
         :alt="member.name.en"
         loading="lazy"
       />
