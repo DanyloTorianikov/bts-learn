@@ -392,11 +392,18 @@ function optionClass(memberId: string): string {
   transition: all var(--transition-fast);
 }
 
-.option-btn:hover:not(.correct):not(.incorrect) {
+@media (hover: hover) {
+  .option-btn:hover:not(.correct):not(.incorrect) {
+    border-color: var(--accent-purple);
+    color: var(--text-primary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(139, 92, 246, 0.15);
+  }
+}
+
+.option-btn:active:not(.correct):not(.incorrect) {
   border-color: var(--accent-purple);
   color: var(--text-primary);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.15);
 }
 
 .option-btn.correct {
@@ -427,10 +434,12 @@ function optionClass(memberId: string): string {
   transition: all var(--transition-fast);
 }
 
-.option-photo:hover:not(.correct):not(.incorrect) {
-  border-color: var(--accent-purple);
-  transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(139, 92, 246, 0.2);
+@media (hover: hover) {
+  .option-photo:hover:not(.correct):not(.incorrect) {
+    border-color: var(--accent-purple);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(139, 92, 246, 0.2);
+  }
 }
 
 .option-photo.correct {
