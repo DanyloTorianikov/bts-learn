@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "Home",
+    "members": "Members",
+    "quiz": "Quiz"
+  },
+  "home": {
+    "title": "BTS Learn",
+    "subtitle": "Learn the names, faces and voices of BTS members",
+    "explore": "Explore Members",
+    "startQuiz": "Start Quiz"
+  },
+  "members": {
+    "title": "BTS Members",
+    "birthDate": "Birth Date",
+    "height": "Height",
+    "zodiac": "Zodiac Sign",
+    "nickname": "Nickname",
+    "facts": "Fun Facts",
+    "soloProjects": "Solo Projects",
+    "hobbies": "Hobbies",
+    "favorites": "Favorites",
+    "favoriteColor": "Favorite Color",
+    "favoriteFood": "Favorite Food",
+    "gallery": "Photo Gallery",
+    "audio": "Audio",
+    "songClip": "Song Clip",
+    "voiceClip": "Interview"
+  },
+  "quiz": {
+    "title": "Quiz",
+    "chooseMode": "Choose Mode",
+    "subtitle": "Test how well you know BTS",
+    "modePhoto": "By Photo",
+    "modePhotoDesc": "See a photo — guess the name",
+    "modeName": "By Name",
+    "modeNameDesc": "See a name — guess the photo",
+    "modeVoice": "By Voice",
+    "modeVoiceDesc": "Hear a voice — guess who",
+    "question": "Question {current} of {total}",
+    "correct": "Correct",
+    "whoIsPhoto": "Who is in this photo?",
+    "whoseVoice": "Whose voice is this?",
+    "selectPhoto": "Select the correct photo for:",
+    "result": "Result",
+    "tryAgain": "Try Again",
+    "differentMode": "Different Mode",
+    "great": "Great result!",
+    "good": "Not bad!",
+    "keepLearning": "Keep learning!"
+  },
+  "zodiac": {
+    "aries": "Aries",
+    "taurus": "Taurus",
+    "gemini": "Gemini",
+    "cancer": "Cancer",
+    "leo": "Leo",
+    "virgo": "Virgo",
+    "libra": "Libra",
+    "scorpio": "Scorpio",
+    "sagittarius": "Sagittarius",
+    "capricorn": "Capricorn",
+    "aquarius": "Aquarius",
+    "pisces": "Pisces"
+  }
+}

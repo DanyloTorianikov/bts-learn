@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "Головна",
+    "members": "Мембери",
+    "quiz": "Квіз"
+  },
+  "home": {
+    "title": "BTS Learn",
+    "subtitle": "Вивчай імена, обличчя та голоси мемберів BTS",
+    "explore": "Дізнатися більше",
+    "startQuiz": "Почати квіз"
+  },
+  "members": {
+    "title": "Мембери BTS",
+    "birthDate": "Дата народження",
+    "height": "Зріст",
+    "zodiac": "Знак зодіаку",
+    "nickname": "Прізвисько",
+    "facts": "Цікаві факти",
+    "soloProjects": "Сольні проєкти",
+    "hobbies": "Хобі",
+    "favorites": "Улюблене",
+    "favoriteColor": "Улюблений колір",
+    "favoriteFood": "Улюблена їжа",
+    "gallery": "Фотогалерея",
+    "audio": "Аудіо",
+    "songClip": "Соло-партія",
+    "voiceClip": "Інтерв'ю"
+  },
+  "quiz": {
+    "title": "Квіз",
+    "chooseMode": "Обери режим",
+    "subtitle": "Перевір, наскільки добре ти знаєш BTS",
+    "modePhoto": "По фото",
+    "modePhotoDesc": "Бачиш фото — вгадай ім'я",
+    "modeName": "По імені",
+    "modeNameDesc": "Бачиш ім'я — вгадай фото",
+    "modeVoice": "По голосу",
+    "modeVoiceDesc": "Чуєш голос — вгадай хто",
+    "question": "Питання {current} з {total}",
+    "correct": "Правильно",
+    "whoIsPhoto": "Хто на цьому фото?",
+    "whoseVoice": "Чий це голос?",
+    "selectPhoto": "Обери правильне фото для:",
+    "result": "Результат",
+    "tryAgain": "Спробувати ще",
+    "differentMode": "Інший режим",
+    "great": "Чудовий результат!",
+    "good": "Непогано!",
+    "keepLearning": "Продовжуй вчити!"
+  },
+  "zodiac": {
+    "aries": "Овен",
+    "taurus": "Телець",
+    "gemini": "Близнюки",
+    "cancer": "Рак",
+    "leo": "Лев",
+    "virgo": "Діва",
+    "libra": "Терези",
+    "scorpio": "Скорпіон",
+    "sagittarius": "Стрілець",
+    "capricorn": "Козеріг",
+    "aquarius": "Водолій",
+    "pisces": "Риби"
+  }
+}
