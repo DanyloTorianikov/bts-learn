@@ -48,6 +48,8 @@ export type QuizMode = 'photo' | 'name' | 'voice'
 export interface QuizQuestion {
   correctMember: Member
   options: Member[]
+  correctPhoto: string
+  optionPhotos: Record<string, string>
 }
 
 export interface QuizResult {

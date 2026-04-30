@@ -11,12 +11,25 @@ function shuffle<T>(array: T[]): T[] {
   return arr
 }
 
+function pickRandom<T>(array: T[]): T {
+  return array[Math.floor(Math.random() * array.length)]
+}
+
 function generateQuestions(): QuizQuestion[] {
   const shuffled = shuffle(members)
   return shuffled.map(member => {
     const others = shuffle(members.filter(m => m.id !== member.id)).slice(0, 3)
     const options = shuffle([member, ...others])
-    return { correctMember: member, options }
+    const optionPhotos: Record<string, string> = {}
+    for (const opt of options) {
+      optionPhotos[opt.id] = pickRandom(opt.photos)
+    }
+    return {
+      correctMember: member,
+      options,
+      correctPhoto: pickRandom(member.photos),
+      optionPhotos
+    }
   })
 }
 

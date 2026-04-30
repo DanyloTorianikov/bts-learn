@@ -11,7 +11,7 @@ export const members: Member[] = [
     zodiac: 'virgo',
     nickname: 'Joon',
     color: '#6A0DAD',
-    photos: ['rm-1.jpg', 'rm-2.jpg', 'rm-3.jpg', 'rm-4.jpg', 'rm-5.jpg'],
+    photos: ['rm-1.jpg', 'rm-2.jpg', 'rm-3.jpg', 'rm-4.jpg', 'rm-5.jpg', 'rm-6.jpg', 'rm-7.jpg', 'rm-8.jpg', 'rm-9.jpg', 'rm-10.jpg'],
     audio: { song: 'rm-song.mp3', songTitle: 'Wild Flower', voice: 'rm-voice.mp3', voiceSource: 'NPR Tiny Desk 2022' },
     facts: [
       { en: 'Has an IQ of 148', ua: 'Має IQ 148' },
@@ -46,7 +46,7 @@ export const members: Member[] = [
     zodiac: 'sagittarius',
     nickname: 'Worldwide Handsome',
     color: '#FF69B4',
-    photos: ['jin-1.jpg', 'jin-2.jpg', 'jin-3.jpg', 'jin-4.jpg', 'jin-5.jpg'],
+    photos: ['jin-1.jpg', 'jin-2.jpg', 'jin-3.jpg', 'jin-4.jpg', 'jin-5.jpg', 'jin-6.jpg', 'jin-7.jpg', 'jin-8.jpg', 'jin-9.jpg', 'jin-10.jpg'],
     audio: { song: 'jin-song.mp3', songTitle: 'The Astronaut', voice: 'jin-voice.mp3', voiceSource: 'Tonight Show 2024' },
     facts: [
       { en: 'Eldest member of BTS, born in 1992', ua: 'Найстарший учасник BTS, народився у 1992' },
@@ -79,7 +79,7 @@ export const members: Member[] = [
     zodiac: 'pisces',
     nickname: 'Lil Meow Meow',
     color: '#FFFFFF',
-    photos: ['suga-1.jpg', 'suga-2.jpg', 'suga-3.jpg', 'suga-4.jpg', 'suga-5.jpg'],
+    photos: ['suga-1.jpg', 'suga-2.jpg', 'suga-3.jpg', 'suga-4.jpg', 'suga-5.jpg', 'suga-6.jpg', 'suga-7.jpg', 'suga-8.jpg', 'suga-9.jpg', 'suga-10.jpg'],
     audio: { song: 'suga-song.mp3', songTitle: 'Daechwita', voice: 'suga-voice.mp3', voiceSource: 'Suchwita Ep.1' },
     facts: [
       { en: 'Produces music under the alias Agust D', ua: 'Продюсує музику під псевдонімом Agust D' },
@@ -113,7 +113,7 @@ export const members: Member[] = [
     zodiac: 'aquarius',
     nickname: 'Hobi',
     color: '#FFD700',
-    photos: ['jhope-1.jpg', 'jhope-2.jpg', 'jhope-3.jpg', 'jhope-4.jpg', 'jhope-5.jpg'],
+    photos: ['jhope-1.jpg', 'jhope-2.jpg', 'jhope-3.jpg', 'jhope-4.jpg', 'jhope-5.jpg', 'jhope-6.jpg', 'jhope-7.jpg', 'jhope-8.jpg', 'jhope-9.jpg', 'jhope-10.jpg'],
     audio: { song: 'jhope-song.mp3', songTitle: 'Chicken Noodle Soup', voice: 'jhope-voice.mp3', voiceSource: 'Tonight Show 2025' },
     facts: [
       { en: 'Was a street dancer before joining BTS', ua: 'Був вуличним танцюристом до приєднання до BTS' },
@@ -147,7 +147,7 @@ export const members: Member[] = [
     zodiac: 'libra',
     nickname: 'Chimmy',
     color: '#FFD700',
-    photos: ['jimin-1.jpg', 'jimin-2.jpg', 'jimin-3.jpg', 'jimin-4.jpg', 'jimin-5.jpg'],
+    photos: ['jimin-1.jpg', 'jimin-2.jpg', 'jimin-3.jpg', 'jimin-4.jpg', 'jimin-5.jpg', 'jimin-6.jpg', 'jimin-7.jpg', 'jimin-8.jpg', 'jimin-9.jpg', 'jimin-10.jpg'],
     audio: { song: 'jimin-song.mp3', songTitle: 'Like Crazy', voice: 'jimin-voice.mp3', voiceSource: 'Tonight Show 2023' },
     facts: [
       { en: 'Studied contemporary dance before joining BTS', ua: 'Вивчав сучасний танець до приєднання до BTS' },
@@ -180,7 +180,7 @@ export const members: Member[] = [
     zodiac: 'capricorn',
     nickname: 'Tae Tae',
     color: '#008000',
-    photos: ['v-1.jpg', 'v-2.jpg', 'v-3.jpg', 'v-4.jpg', 'v-5.jpg'],
+    photos: ['v-1.jpg', 'v-2.jpg', 'v-3.jpg', 'v-4.jpg', 'v-5.jpg', 'v-6.jpg', 'v-7.jpg', 'v-8.jpg', 'v-9.jpg', 'v-10.jpg'],
     audio: { song: 'v-song.mp3', songTitle: 'Slow Dancing', voice: 'v-voice.mp3', voiceSource: 'Vogue Japan 2025' },
     facts: [
       { en: 'Has a unique deep baritone voice', ua: 'Має унікальний глибокий баритон' },
@@ -212,7 +212,7 @@ export const members: Member[] = [
     zodiac: 'virgo',
     nickname: 'JK / Golden Maknae',
     color: '#9400D3',
-    photos: ['jungkook-1.jpg', 'jungkook-2.jpg', 'jungkook-3.jpg', 'jungkook-4.jpg', 'jungkook-5.jpg'],
+    photos: ['jungkook-1.jpg', 'jungkook-2.jpg', 'jungkook-3.jpg', 'jungkook-4.jpg', 'jungkook-5.jpg', 'jungkook-6.jpg', 'jungkook-7.jpg', 'jungkook-8.jpg', 'jungkook-9.jpg', 'jungkook-10.jpg'],
     audio: { song: 'jungkook-song.mp3', songTitle: 'Seven', voice: 'jungkook-voice.mp3', voiceSource: 'GOLDEN Press 2023' },
     facts: [
       { en: 'Youngest member (maknae) of BTS', ua: 'Наймолодший учасник (макне) BTS' },

@@ -88,7 +88,7 @@ function optionClass(memberId: string): string {
     <div v-if="mode === 'photo'" class="question-content">
       <div class="question-photo">
         <img
-          :src="`${base}images/members/${question.correctMember.id}/${question.correctMember.photos[0]}`"
+          :src="`${base}images/members/${question.correctMember.id}/${question.correctPhoto}`"
           :alt="'?'"
         />
       </div>
@@ -118,7 +118,7 @@ function optionClass(memberId: string): string {
           @click="selectAnswer(option.id)"
         >
           <img
-            :src="`${base}images/members/${option.id}/${option.photos[0]}`"
+            :src="`${base}images/members/${option.id}/${question.optionPhotos[option.id]}`"
             :alt="'?'"
           />
         </button>
